@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    --background-color: rgb(50,50,50);
+    --canvas-backcolor: rgb(50, 50, 50);
+}
+
+canvas {
+    margin-top: 4rem;
+    background-color: var(--canvas-backcolor);
+}
+
